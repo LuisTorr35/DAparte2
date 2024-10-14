@@ -1,0 +1,38 @@
+a {
+    color: white; /* Color normal */
+    text-decoration: none; /* Sin subrayado */
+    transition: transform 0.3s ease, color 0.3s ease; /* Transición suave */
+}
+
+a:hover {
+    color: white; /* Color al pasar el ratón */
+    transform: scale(1.2); /* Aumentar tamaño al 120% */
+}
+
+a:visited {
+    color: white; /* Color de enlaces visitados */
+}
+
+a:active {
+    color: white /* Color al hacer clic */
+}
+h1{
+    text-align: center;
+    background-color: #ebfffc;
+}
+.parrafito {
+    text-align: justify;
+    color: black;
+    font-size: 18pt;
+}
+.image1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image1 img{
+    text-align: center;
+    width: 80%;
+    height: auto;
+
+}
