@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Carga de Archivos por Especialidad</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Cargar Archivo por Especialidad</h1>
+    <form id="uploadForm">
+        <label for="specialty">Especialidad:</label>
+        <select id="specialty" name="specialty">
+            <option value="Estadistica">Estadística</option>
+            <option value="DesarrolloWeb">Desarrollo Web</option>
+            <option value="Testing">Testing</option>
+        </select>
+        <label for="file">Seleccionar archivo:</label>
+        <input type="file" id="file" name="file">
+        <button type="submit">Cargar</button>
+    </form>
+    <h2>Archivos por Especialidad</h2>
+    <select id="viewSpecialty">
+        <option value="Estadistica">Estadística</option>
+        <option value="DesarrolloWeb">Desarrollo Web</option>
+        <option value="Testing">Testing</option>
+    </select>
+    <ul id="fileList"></ul>
+    <script src="script.js"></script>
+</body>
+</html>
